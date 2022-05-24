@@ -147,6 +147,13 @@ color: #000 !important;}
 .carrossel__infos a, .carrossel__infos p {
     margin: 10px 0;
 }
+@media (max-width: 768px){
+    .carrossel__card{
+        width: 80%;
+        margin: 0 auto;        
+    }
+
+}
 /*footer*/
 #container__footer{
     padding: 20px 0;
@@ -177,4 +184,9 @@ justify-content: space-around;}
 }
 #lancamentos p, #lancamentos h2{
     color: #fff !important;
+}
+/*botão label*/
+.button__radio{
+    border: 1px solid #fff;
+    padding: 12px 20px;
 }
