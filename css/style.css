@@ -154,6 +154,11 @@ color: #000 !important;}
     }
 
 }
+@media(max-width: 1028px){
+    .carrossel__infos a, .carrossel__infos p{
+        padding: 0 20px;
+    }
+}
 /*footer*/
 #container__footer{
     padding: 20px 0;
@@ -184,6 +189,11 @@ justify-content: space-around;}
 }
 #lancamentos p, #lancamentos h2{
     color: #fff !important;
+}
+@media(max-width: 480px){
+    #lancamentos p, #lancamentos h2{
+    font-size:22px;
+}
 }
 /*botão label*/
 .button__radio{
